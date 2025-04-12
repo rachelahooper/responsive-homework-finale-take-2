@@ -74,31 +74,51 @@ h2 {
 p {
   font-size: 18px;
 }
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 footer {
   font-family: "Literata", serif;
   color: white;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../images/pexels-lulizler-nerds.jpg);
+    url(../images/pexels-miroalt-scotland2.jpg);
   border-radius: 5px;
-  padding: 72px 0;
+  padding: 100px 0;
   margin: auto 0;
   background-repeat: no-repeat;
   background-size: cover;
+  text-decoration: none;
+}
+footer ul {
+  margin: 0;
+}
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 footer h3 {
+  font-family: "Amarante", serif;
   font-size: 20px;
+  font-weight: 900;
   line-height: 1.5;
 }
 footer a {
   color: white;
-  opacity: 0.7;
+  opacity: 0.8;
   font-size: 14px;
 }
 footer p {
   font-size: 14px;
   color: white;
-  opacity: 0.7;
+  opacity: 0.8;
+  margin-right: 25px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
 }
 @media (max-width: 960px) {
   header {
