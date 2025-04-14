@@ -74,9 +74,22 @@ h2 {
 p {
   font-size: 18px;
 }
+main {
+  background-color: #bcf5cc;
+}
 section {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 100px 0;
+}
+section h4 {
+  font-size: 16px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: 272044;
+}
+.section-1-img {
+  max-width: 450px;
 }
 
 footer {
@@ -114,11 +127,11 @@ footer p {
   font-size: 14px;
   color: white;
   opacity: 0.8;
-  margin-right: 25px;
 }
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 64px;
 }
 @media (max-width: 960px) {
   header {
