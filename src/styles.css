@@ -85,9 +85,12 @@ main {
   background-color: #dff7f6;
 }
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
+}
+section.secondary {
+  background-color: #b6cfcd;
 }
 main h3 {
   font-size: 16px;
@@ -103,6 +106,13 @@ main p {
 .section-1-img {
   max-width: 450px;
   margin-left: 75px;
+}
+.img-responsive {
+  max-width: 100%;
+  display: block;
+}
+.text-center {
+  text-align: center;
 }
 
 footer {
