@@ -158,9 +158,25 @@ footer p {
 .grid-two-columns {
   grid-template-columns: 1fr 1fr;
 }
+.grid-three-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
 .grid-three-columns-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
   margin-left: 45px;
+}
+.card {
+  background-color: white;
+}
+.card h4,
+h5 {
+  font-family: "Abril Fatface", serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.card p {
+  font-family: "Literata", serif;
+  font-size: 15px;
 }
 @media (max-width: 960px) {
   header {
