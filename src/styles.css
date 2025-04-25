@@ -96,7 +96,6 @@ main h3 {
   font-size: 16px;
   line-height: 1.5;
   text-transform: uppercase;
-  color: 272044;
 }
 main p {
   font-family: "Literata", serif;
@@ -136,20 +135,18 @@ footer li {
   padding: 0;
 }
 footer h3 {
-  font-family: "Amarante", serif;
+  font-family: "Abril Fatface", serif;
   font-size: 20px;
   font-weight: 900;
   line-height: 1.5;
 }
 footer a {
   color: white;
-  opacity: 0.8;
   font-size: 14px;
 }
 footer p {
   font-size: 14px;
   color: white;
-  opacity: 0.8;
 }
 .grid {
   display: grid;
@@ -172,11 +169,30 @@ footer p {
 h5 {
   font-family: "Abril Fatface", serif;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: bolder;
 }
 .card p {
   font-family: "Literata", serif;
   font-size: 15px;
+}
+.card-body {
+  padding: 30px;
+}
+.card-footer {
+  padding: 10px 10px 10px;
+}
+.btn {
+  display: block;
+  color: white;
+  background-color: #0a8078;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  padding: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 @media (max-width: 960px) {
   header {
