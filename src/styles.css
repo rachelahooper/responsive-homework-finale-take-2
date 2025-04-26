@@ -107,7 +107,7 @@ main p {
   margin-left: 75px;
 }
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 .text-center {
@@ -162,8 +162,15 @@ footer p {
   grid-template-columns: 1fr 2fr 2fr;
   margin-left: 45px;
 }
+.embed {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
 .card {
   background-color: white;
+}
+.card-header.grid {
+  grid-gap: 0;
 }
 .card h4,
 h5 {
@@ -224,5 +231,12 @@ h5 {
   }
   section {
     padding: 30px;
+  }
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
